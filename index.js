@@ -5,4 +5,7 @@ function loanCalculator() {
 
     monthlyTerm = document.getElementById("months-to-pay").value;
   
+    interest = (loanAmount * (interestRate * 0.01)) / monthlyTerm;
+  
+    monthlyPayment = (loanAmount / monthlyTerm + interest).toFixed(2);
   }
