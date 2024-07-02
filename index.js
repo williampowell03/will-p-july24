@@ -1,4 +1,4 @@
-function loanCalculator() {
+function calculateLoan() {
     loanAmount = document.getElementById("loan-amount").value;
   
     interestRate = document.getElementById("interest-rate").value;
