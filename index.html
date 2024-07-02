@@ -16,7 +16,7 @@
         <input type="number" id="interest-rate" min="0" max="100" value="10" step=".1">
 
         <h3>Payment Term (No. Months) :</h3>
-        <input type="number" id="months-to-pay" min="6" max="48" value="12">
+        <input onchange="calculateLoan()" type="number" id="months-to-pay" min="6" max="48" value="12">
         
         <p class="payment" id="payment">Monthly Payment:</p>
 
