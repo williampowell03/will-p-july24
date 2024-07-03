@@ -1,4 +1,4 @@
-# Software Engineering Summative 1
+# Software Engineering Summative 1 Assignment
 Northeastern University
 
 # Loan Calculator App
