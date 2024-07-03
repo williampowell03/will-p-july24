@@ -8,3 +8,7 @@ body{
     font-family: 'Rockwell', Courier Bold, Courier;
     font-size: 25px;
 }
+.container{
+    background: rgb(0, 132, 255);
+    
+}
