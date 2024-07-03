@@ -1,0 +1,27 @@
+body{ /*Defining the body styling*/
+    padding: 0; /*Adding a default padding buffers to the body*/
+    margin: 0; /*Adding a default margin to the body*/
+    display: flex; /*Adding a flexible display to determine how the page reacts*/
+    height: 100vh; /*Setting the body height*/
+    justify-content: center; /*Determines how the browser distributes space around the body*/
+    align-items: center; /*Aligning the body to the centre*/
+    font-family: 'Rockwell', Courier Bold, Courier; /*Setting the main font style for the body text*/
+    font-size: 25px; /*Setting the font size for the body text*/
+}
+.container{ /*Defining the styling for the container class*/
+    background: rgb(0, 132, 255); /*Defining the background colour for the container class*/
+    color: rgb(236, 236, 236); /*Setting the main colour (text) for the container class*/
+    padding: 20px; /*Defining the class padding*/
+    border-radius: 10px; /*Defining a surround border radius for the container class*/
+}
+.input{ /*Defining the styling for the input class*/
+    width: 75%; /*Defining the width of the input boxes*/
+    font-size: 22px; /*Defining the font size of the number within the input boxes*/
+    height: 35px; /*Defining the height of the input boxes*/
+    background: rgb(199, 237, 255); /*Defining the background colour for the input boxes*/
+}
+.payment-result{ /*Defining the payment result display class*/
+    font-weight: 600; /*Defining the font weight for the text in the payment-result class*/
+    font-size: 35px; /*Defining the font size within the payment-result class*/
+    text-align: center; /*Aligning the text within the payment-result class to the centre of the container*/
+}
