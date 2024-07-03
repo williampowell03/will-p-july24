@@ -10,13 +10,13 @@
     <div class="container">
         <h1>Personal Loan Calculator</h1>
         <h3>Loan Amount £ :</h3>
-        <input onchange="calculateLoan()" type="number" id="loan-amount" min="1" max="100000" value="10000">
+        <input onchange="calculateLoan()" class="input" type="number" id="loan-amount" min="1" max="100000" value="10000">
 
         <h3>Interest Rate % :</h3>
-        <input onchange="calculateLoan()" type="number" id="interest-rate" min="0" max="100" value="10" step=".1">
+        <input onchange="calculateLoan()" class="input" type="number" id="interest-rate" min="0" max="100" value="10" step=".1">
 
         <h3>Payment Term (No. Months) :</h3>
-        <input onchange="calculateLoan()" type="number" id="months-to-pay" min="6" max="48" value="12">
+        <input onchange="calculateLoan()" class="input" type="number" id="months-to-pay" min="6" max="48" value="12">
         
         <p class="payment" id="payment">Monthly Payment:</p>
 
