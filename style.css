@@ -14,11 +14,11 @@ body{
     padding: 20px;
     border-radius: 10px;
 }
-
 .input{
     width: 75%;
     font-size: 22px;
     height: 35px;
+    background: rgb(199, 237, 255);
 }
 .payment-result{
     font-weight: 600;
