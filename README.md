@@ -25,7 +25,8 @@ This application utilises a simple formula in order to calculate the interest an
 ## Documentation
 
 ## Project Management
-
+//Overview + Image
+//Issue system (categorisation)
 ## Development - Code & Design
 
 ## Testing
