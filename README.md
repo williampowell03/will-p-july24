@@ -2,7 +2,7 @@
 Northeastern University
 
 # Loan Calculator App
-
+[![CodeFactor](https://www.codefactor.io/repository/github/williampowell03/will-p-july24/badge)](https://www.codefactor.io/repository/github/williampowell03/will-p-july24)
 ## About
 
 Author: William Powell
