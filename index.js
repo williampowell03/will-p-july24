@@ -14,3 +14,5 @@ function calculateLoan() {
         "payment" //ID to identify
       ).innerHTML = `Monthly Payment: ${monthlyPayment}`; //Amends the HTML file to include the monthly payment variable
   } //Closing the function
+
+module.exports = { calculateLoan };
