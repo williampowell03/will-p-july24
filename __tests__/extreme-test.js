@@ -23,5 +23,5 @@ test("Handle high values", () => {
     calculateLoan();
 
     const expectedPayment = ((1000000 / 60) + (1000000 * (15 * 0.01) / 60)).toFixed(2);
-    expect(document.getElementById("payment").textContent).toBe(`Monthly Payment: ${expectedPayment}`);
+    expect(document.getElementById("payment").textContent).toBe(`Monthly Payment: £ ${expectedPayment}`);
 });
