@@ -7,10 +7,11 @@ body{ /*Defining the body styling*/
     align-items: center; /*Aligning the body to the centre*/
     font-family: 'Rockwell', Courier Bold, Courier; /*Setting the main font style for the body text*/
     font-size: 25px; /*Setting the font size for the body text*/
+    background: #003b49;
 }
 .container{ /*Defining the styling for the container class*/
-    background: rgb(0, 132, 255); /*Defining the background colour for the container class*/
-    color: rgb(236, 236, 236); /*Setting the main colour (text) for the container class*/
+    background: #41b6e6; /*Defining the background colour for the container class*/
+    color: #003b49; /*Setting the main colour (text) for the container class*/
     padding: 20px; /*Defining the class padding*/
     border-radius: 10px; /*Defining a surround border radius for the container class*/
 }
