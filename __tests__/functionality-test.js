@@ -34,7 +34,7 @@ test("Calculate loan payment correctly", () => {
 
     // Verify expected output
     const expectedPayment = ((20000 / 24) + (20000 * (5 * 0.01) / 24)).toFixed(2);
-    expect(document.getElementById("payment").textContent).toBe(`Monthly Payment: ${expectedPayment}`);
+    expect(document.getElementById("payment").textContent).toBe(`Monthly Payment: £ ${expectedPayment}`);
 });
 
 
@@ -45,5 +45,5 @@ test("Handle negative and zero values", () => {
 
   calculateLoan();
 
-  expect(document.getElementById("payment").textContent).toBe("Monthly Payment: NaN");
+  expect(document.getElementById("payment").textContent).toBe("Monthly Payment: £ NaN");
 });
