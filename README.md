@@ -9,7 +9,7 @@ Author: William Powell
 
 GitHub Username Credentials: @williampowell03
 
-![Screenshot of Application](image.png)
+![Screenshot of Application](docs/images/image.png)
 
 The Personal Loan Calculator App is a Java Script Application that allows the user to calculate the Monthly Payment that arises from a loan of their choosing. The Java Script backend and HTML & CSS front end enables the user to input the loan amount in £, the interest rate % and the payment term length in months, producing an output displaying the monthly payment that the user will incur as a result of the loan.
 
@@ -74,7 +74,8 @@ I first created my user interface design prototype using Figma, giving me an ini
 
 [Initial Figma Prototyped Design](https://www.figma.com/design/UPRCPuQzYHB5RXxAl7GTu5/SE-Project-Design?node-id=0-1&t=rHv5oc6k0GHqBgiJ-1)
 
-![Colour Contrast Cards](image-1.png)
+![Colour Contrast Cards](docs/images/image-1.png)
+
 Click [here](http://www.sussex.ac.uk/tel/resource/tel_website/accessiblecontrast/?q=FFFFFF~003b49~1d4289~94a596~e56db1~d3273e~00bfb2~d6d2c4~ffc845~dc582a~41b6e6~1b365d~be84a3~5d3754~7da1c4~f2c75c~d0d3d4~007a78~000000) to access the website used to identify an accessible colour profile.
 
 
@@ -137,7 +138,7 @@ CI/CD pipelines are crucial for maintaining the integrity of the application thr
 
 When managing this Loan Calculator Project, I used the GitHub Projects tool. GitHub project is an adaptable spreadsheet, task-board, and road map that integrates with your issues and pull requests on GitHub, encouraging better and more effective management of the work.
 
-![GitHub Project Board](image-2.png)
+![GitHub Project Board](docs/images/image-2.png)
 
 [GitHub Project Docs](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects)
 
@@ -150,7 +151,7 @@ Following the Agile methodology, the Scrum framework was incorporated when devel
 
 Each ticket in the list of issues corresponds with a task, whether that be a feature, bug, testing or documentation. Every issue is assigned a label and a description to outline what the task is for. An issue will link to a branch and a Pull Request for better management and tracking of the project. Also for audit purposes, the branches can be traced by a ticket. On a larger scale project, a reviewer would be assigned to each PR to ensure that before the branch is merged, it is tested and reviewed to mitigate any risks and identify any potential errors in logic or syntax. For this smaller scale project, I ran the CI/CD pipelines to test, and I reviewed the commit messages individually before merging the branch to reduce any risks of bugs or incidents.
 
-![GitHub Issue List](image-3.png)
+![GitHub Issue List](docs/images/image-3.png)
 
 
 ## Evaluation
