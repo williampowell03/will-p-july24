@@ -154,6 +154,7 @@ When testing the performance and accessibility of the product, I used lighthouse
 
 ### Codefactor Testing
 
+Codefactor performs code reviews with every commit or pull request. Codefactor continuously monitors the codebase for potential issues, providing automated feedback on code quality, enforcing coding standards to ensure that the quality guidelines are adhered to.
 
 ## Project Management
 
