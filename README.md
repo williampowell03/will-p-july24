@@ -134,6 +134,27 @@ CI/CD pipelines are crucial for maintaining the integrity of the application thr
 
 ## Testing
 
+### Logic Testing
+
+A testing library called Jest was used when testing the logic of my application. Jest is a JavaScript testing framework designed to ensure the correctness of any JavaScript codebase. Using Jest, I created testing scripts that test various features and functionality leading to 100% code coverage. Jest aids in finding bugs with several pre-defined test cases, ensuring testing consistency throughout the development process.
+
+### Unit Testing
+
+Jest was used to run predefined unit testing scripts on the codebase, ensuring that the code aligns with a specified standard before deploying to the main repo branch. I can ensure project quality and reliability throughout the development phase, resulting in higher-quality code, a more efficient product and potential money saving.
+
+Below is an example of the tests running.
+
+![Jest Test Outputs](docs/images/image-4.png)
+
+### Performance and Accessibility Testing
+
+When testing the performance and accessibility of the product, I used lighthouse tests to generate a scored report with summarised outputs detailing performance, accessibility, best practices and SEO. Lighthouse testing can be accessed at [WebPageTest](https://www.webpagetest.org/lighthouse) and enables developers to run their website against several tests.
+
+#### Results
+
+### Codefactor Testing
+
+
 ## Project Management
 
 When managing this Loan Calculator Project, I used the GitHub Projects tool. GitHub project is an adaptable spreadsheet, task-board, and road map that integrates with your issues and pull requests on GitHub, encouraging better and more effective management of the work.
