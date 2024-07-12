@@ -150,7 +150,17 @@ Below is an example of the tests running.
 
 When testing the performance and accessibility of the product, I used lighthouse tests to generate a scored report with summarised outputs detailing performance, accessibility, best practices and SEO. Lighthouse testing can be accessed at [WebPageTest](https://www.webpagetest.org/lighthouse) and enables developers to run their website against several tests providing outputs to improve on.
 
+![Lighthouse Report](docs/images/image-6.png)
+
 #### Results
+
+As shown on the report, the websites performance rating of 100 proves that this application is highly optimised to run seamlessly with a 0.07 second server response time, providing a heightened user experience. A lower performance score may indicate longer load times, worsening the overall user experience so it is important that this score is high.
+
+The application performs at a score of 85 for accessibility. This indicates that it is relatively easy to comprehend and use for the user. The design, utilising the accessibility colour pallete, ensures that the application is aesthetically pleasing with contrasting colours and intuitive headings and input boxes.
+
+With a score of 96 for best practices, proves that the application has improved efficiency, enhanced quality whilst remaining simple and intuitive.
+
+The SEO score of 91 implies that the application design draws in a larger audience with a higher rate of high quality direct internet traffic.
 
 ### Codefactor Testing
 
