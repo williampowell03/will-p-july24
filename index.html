@@ -10,11 +10,11 @@
     <div class="container"> <!--Divison tag to add a section to HTML & defining the class for the division-->
         <h1>Personal Loan Calculator</h1> <!--Largest (H1) title tag-->
         <h3>Loan Amount £ :</h3> <!--H3 title tag (smaller than H1)-->
-        <input onchange="calculateLoan()" class="input" type="number" id="loan-amount" min="1" max="100000" value="10000"> <!--Input tag to allow the user to input a number for the loan amount which will call the calculateLoan() function.-->
+        <label for="loan-amount"><input onchange="calculateLoan()" class="input" type="number" id="loan-amount" min="1" max="100000" value="10000"/></label> <!--Input tag to allow the user to input a number for the loan amount which will call the calculateLoan() function.-->
         <h3>Interest Rate % :</h3> <!--H3 title tag (smaller than H1)-->
-        <input onchange="calculateLoan()" class="input" type="number" id="interest-rate" min="0" max="100" value="10" step=".1"> <!--Input tag to allow the user to input a number for the interest rate which will call the calculateLoan() function.-->
+        <label for="number"><input onchange="calculateLoan()" class="input" type="number" id="interest-rate" min="0" max="100" value="10" step=".1"/></label> <!--Input tag to allow the user to input a number for the interest rate which will call the calculateLoan() function.-->
         <h3>Payment Term (No. Months) :</h3> <!--H3 title tag (smaller than H1)-->
-        <input onchange="calculateLoan()" class="input" type="number" id="months-to-pay" min="6" max="48" value="12"> <!--Input tag to allow the user to input a number for the months which will call the calculateLoan() function.-->
+        <label for="months-to-pay"><input onchange="calculateLoan()" class="input" type="number" id="months-to-pay" min="6" max="48" value="12"/> <!--Input tag to allow the user to input a number for the months which will call the calculateLoan() function.-->
         <p class="payment-result" id="payment">Monthly Payment:</p> <!--Paragraph tag to display the Monthly Payment result-->
     </div> <!--Closing the division tag-->
     <script src="index.js"></script> <!--Linking the external source JS file with HTML.-->
