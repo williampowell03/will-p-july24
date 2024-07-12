@@ -190,4 +190,11 @@ Each ticket in the list of issues corresponds with a task, whether that be a fea
 
 ## Evaluation
 
-Write evaluation here
+In conclusion, I am overall very pleased with the outcome of the Loan Calculator Application. The design and development of this application successfully met the initial project goal. It accurately calculates monthly loan payments based on user inputs. The UI is intuitive and user-friendly, featuring clear input fields and a noticeable display of the calculated monthly payment. The application doesn't prove to be over-complicated for users and is designed with the UIs accessibility in mind.
+
+However, whilst the application does prove to meet the requirements through the several forms of testing that has been undertaken, there are a few enhancements that could be made in the future:
+* Further Accessibility Improvements: Ensuring the application meets accessibility standards for users with disabilities.
+* Internationalisation: Supporting multiple currencies and languages to cater to a broader audience.
+* Additional Features: Incorporating options for different types of loans.
+
+Overall, the Loan Calculator Application delivers a valuable tool for users to estimate their financial loans with ease and accuracy, whilst effectively utilising modern software development practices and tools.
