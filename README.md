@@ -23,7 +23,7 @@ This live web application is deployed using [GitHub Pages](https://williampowell
 
 The project is deployed to GitHub pages through the CI/CD or Continuous Integration and Continuous Deployment Pipeline configured to run when a PR is raised for the master (main) branch. The CI/CD Pipelines incorporate automated testing and deployment, enhancing reliability and efficiency throughout the project lifecycle.
 
-Please see more on CI/CD here.
+Please see more on CI/CD [here](#continuous-integration-and-continuous-deployment-cicd).
 
 ### Justification for application development
 
@@ -148,13 +148,15 @@ Below is an example of the tests running.
 
 ### Performance and Accessibility Testing
 
-When testing the performance and accessibility of the product, I used lighthouse tests to generate a scored report with summarised outputs detailing performance, accessibility, best practices and SEO. Lighthouse testing can be accessed at [WebPageTest](https://www.webpagetest.org/lighthouse) and enables developers to run their website against several tests.
+When testing the performance and accessibility of the product, I used lighthouse tests to generate a scored report with summarised outputs detailing performance, accessibility, best practices and SEO. Lighthouse testing can be accessed at [WebPageTest](https://www.webpagetest.org/lighthouse) and enables developers to run their website against several tests providing outputs to improve on.
 
 #### Results
 
 ### Codefactor Testing
 
 Codefactor performs code reviews with every commit or pull request. Codefactor continuously monitors the codebase for potential issues, providing automated feedback on code quality, enforcing coding standards to ensure that the quality guidelines are adhered to.
+
+![Codefactor Testing](docs/images/image-5.png)
 
 ## Project Management
 
