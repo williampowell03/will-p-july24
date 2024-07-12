@@ -9,6 +9,8 @@ Author: William Powell
 
 GitHub Username Credentials: @williampowell03
 
+Repository: https://github.com/williampowell03/will-p-july24
+
 ![Screenshot of Application](docs/images/image.png)
 
 The Personal Loan Calculator App is a Java Script Application that allows the user to calculate the Monthly Payment that arises from a loan of their choosing. The Java Script backend and HTML & CSS front end enable the user to input the loan amount in £, the interest rate % and the payment term length in months, producing an output displaying the monthly payment that the user will incur as a result of the loan.
