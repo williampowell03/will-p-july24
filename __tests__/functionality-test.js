@@ -1,5 +1,3 @@
-// index.test.js
-
 const { JSDOM } = require("jsdom");
 const fs = require("fs");
 const path = require("path");

@@ -9,9 +9,11 @@ Author: William Powell
 
 GitHub Username Credentials: @williampowell03
 
+Repository: https://github.com/williampowell03/will-p-july24
+
 ![Screenshot of Application](docs/images/image.png)
 
-The Personal Loan Calculator App is a Java Script Application that allows the user to calculate the Monthly Payment that arises from a loan of their choosing. The Java Script backend and HTML & CSS front end enable the user to input the loan amount in £, the interest rate % and the payment term length in months, producing an output displaying the monthly payment that the user will incur as a result of the loan.
+The Personal Loan Calculator App is a Java Script Application that allows the user to calculate the Monthly Payment that arises from a loan of their choosing. The Java Script backend and HTML & CSS front end enable the user to input the loan amount £, the interest rate % and the payment term length in months, producing an output displaying the monthly payment that the user will incur as a result of the loan.
 
 This application utilises a simple formula to calculate the interest and the fixed monthly payment with a user interface that aims to display:
 * User input box for the Loan Amount Value
@@ -19,7 +21,7 @@ This application utilises a simple formula to calculate the interest and the fix
 * User input box for the Months to Pay Term
 * Output showing the monthly payment for the user
 
-This live web application is deployed using [GitHub Pages](https://williampowell03.github.io/will-p-july24/)
+This live web application is deployed using [GitHub Pages](https://williampowell03.github.io/will-p-july24/).
 
 The project is deployed to GitHub pages through the CI/CD or Continuous Integration and Continuous Deployment Pipeline configured to run when a PR is raised for the master (main) branch. The CI/CD Pipelines incorporate automated testing and deployment, enhancing reliability and efficiency throughout the project lifecycle.
 
@@ -107,13 +109,13 @@ Step-by-step guide on how the MVP was developed:
 2.	I created three user input boxes (tags), allowing the user to input their response depending on the header above each tag.
 3.	Towards the end of the container, I created a paragraph tag to show the end monthly payment result that would come from the calculation using the user inputs.
 4.	In index.js, I created a function called calculateLoan().
-5.	This function contains five variables: loanAmount, interestRate, monthlyTerm, interest, monthlyPayment
-6.	The loanAmount variable takes the loan amount in GBP £ from the user input box in index.html
+5.	This function contains five variables: loanAmount, interestRate, monthlyTerm, interest, monthlyPayment.
+6.	The loanAmount variable takes the loan amount in GBP £ from the user input box in index.html.
 7.	The interestRate variable takes the interest rate percentage % from the user input box in index.html.
 8.	The monthlyTerm variables take the payment term in months from the user input box in index.html.
 9.	The interest variable takes in the loanAmount, interestRate and monthlyTerm variables and creates a formula to calculate the accrued interest over the term.
 10.	The monthlyPayment variable takes in the loanAmount, monthlyTerm and interest variables and calculates the monthly payment for the user over the given time frame.
-11.	This monthlyPayment variable is then outputted using the “payment” ID in index.html displaying ‘Monthly Payment: ${monthlyPayment}’
+11.	This monthlyPayment variable is then outputted using the “payment” ID in index.html displaying ‘Monthly Payment: ${monthlyPayment}’.
 12.	In style.css, through utilising the classes defined in the HTML tags, styling like background colour, padding, borders, font styling and text alignment were able to be defined per tag depending on the class. This ensures the product is more accessible and user-friendly.
 
 
@@ -142,7 +144,7 @@ A testing library called Jest was used when testing the logic of my application.
 
 Jest was used to run predefined unit testing scripts on the codebase, ensuring that the code aligns with a specified standard before deploying to the main repo branch. I can ensure project quality and reliability throughout the development phase, resulting in higher-quality code, a more efficient product and potential money saving.
 
-Below is an example of the tests running.
+Below is an example of the tests running:
 
 ![Jest Test Outputs](docs/images/image-4.png)
 
@@ -154,7 +156,7 @@ When testing the performance and accessibility of the product, I used lighthouse
 
 #### Results
 
-As shown in the report, the website's performance rating of 100 proves that this application is highly optimised to run seamlessly with a 0.07-second server response time, providing a heightened user experience. A lower performance score may indicate longer load times, worsening the overall user experience so it is important that this score is high.
+As shown in the report, the website's performance rating of 100 proves that this application is highly optimised to run seamlessly with a 0.07-second server response time, providing a heightened user experience. A lower performance score may indicate longer load times, worsening the overall user experience, so it is important that this score is high.
 
 The application performs at a score of 85 for accessibility. This indicates that it is relatively easy to comprehend and use for the user. The design, utilising the accessibility colour palette, ensures that the application is aesthetically pleasing with contrasting colours and intuitive headings and input boxes.
 
@@ -178,7 +180,7 @@ When managing this Loan Calculator Project, I used the GitHub Projects tool. Git
 
 To manage this project, I used the Kanban-styled board to manage the issue tickets and visualise the project workflow in its varying stages. Issues or tasks can be moved across the workflow depending on their status state. This aligns with the agile approach that I have been taking throughout the different stages of iterative development, ensuring full transparency and incremental software development whilst prioritising tasks efficiently. This encourages continuous improvement, organising tasks into manageable increments, ensuring steady progress and flexibility in responding to changes.
 
-Following the Agile methodology, the Scrum framework was incorporated when developing this application, working in shorter, time-based blocks where a certain amount of work is set to be completed. Due to the shorter scale of the project, Scrum collaborative calls were not necessary but in a larger scale project, this methodology would allow teams to collaborate on tasks and issues more effectively, producing higher quality code with easier manageability, giving the developers more flexibility to adjust project priorities.
+Following the Agile methodology, the Scrum framework was incorporated when developing this application, working in shorter, time-based blocks where a certain amount of work is set to be completed. Due to the smaller scale of the project, Scrum collaborative calls were not necessary but in a larger scale project, this methodology would allow teams to collaborate on tasks and issues more effectively, producing higher quality code with easier manageability, giving the developers more flexibility to adjust project priorities.
 
 
 ### Issue Ticket System
@@ -190,7 +192,7 @@ Each ticket in the list of issues corresponds with a task, whether that be a fea
 
 ## Evaluation
 
-In conclusion, I am overall very pleased with the outcome of the Loan Calculator Application. The design and development of this application successfully met the initial project goal. It accurately calculates monthly loan payments based on user inputs. The UI is intuitive and user-friendly, featuring clear input fields and a noticeable display of the calculated monthly payment. The application doesn't prove to be over-complicated for users and is designed with the UIs accessibility in mind.
+In conclusion, I am overall very pleased with the outcome of the Loan Calculator Application. The design and development of this application successfully met the initial project goal. It accurately calculates monthly loan payments based on user inputs. The UI is intuitive and user-friendly, featuring clear input fields and a displayed section for the calculated monthly payment. The application doesn't prove to be over-complicated for users and is designed with the UIs accessibility in mind.
 
 However, whilst the application does prove to meet the requirements through the several forms of testing that have been undertaken, there are a few enhancements that could be made in the future:
 * Further Accessibility Improvements: Ensuring the application meets accessibility standards for users with disabilities.
