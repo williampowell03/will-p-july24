@@ -11,9 +11,9 @@ GitHub Username Credentials: @williampowell03
 
 ![Screenshot of Application](docs/images/image.png)
 
-The Personal Loan Calculator App is a Java Script Application that allows the user to calculate the Monthly Payment that arises from a loan of their choosing. The Java Script backend and HTML & CSS front end enables the user to input the loan amount in £, the interest rate % and the payment term length in months, producing an output displaying the monthly payment that the user will incur as a result of the loan.
+The Personal Loan Calculator App is a Java Script Application that allows the user to calculate the Monthly Payment that arises from a loan of their choosing. The Java Script backend and HTML & CSS front end enable the user to input the loan amount in £, the interest rate % and the payment term length in months, producing an output displaying the monthly payment that the user will incur as a result of the loan.
 
-This application utilises a simple formula in order to calculate the interest and the fixed monthly payment with a user interface that aims to display:
+This application utilises a simple formula to calculate the interest and the fixed monthly payment with a user interface that aims to display:
 * User input box for the Loan Amount Value
 * User input box for the Interest Rate Value
 * User input box for the Months to Pay Term
@@ -27,7 +27,7 @@ Please see more on CI/CD [here](#continuous-integration-and-continuous-deploymen
 
 ### Justification for application development
 
-The development of the Loan Calculator application is designed to help those looking to manage their finances more effectively. With finance becoming ever more complicated, with an increasing number of people buying homes, funding education or starting a business, an application like this aims to address a common need for individuals. With the understanding of loan terms, interest rates and repayment timelines being complex, this application simplifies the loan process, providing an intuitive and easy to use tool that allows users to quickly and accurately calculate their monthly loan repayment based on variable user inputs. Its development revolves around the objective of enhancing financial accessibility, enabling individuals to plan budgets more effectively, empower informed decision making and avoid potential debt issues, making it invaluable for those considering taking out a loan.
+The development of the Loan Calculator application is designed to help those looking to manage their finances more effectively. With finance becoming ever more complicated, with an increasing number of people buying homes, funding education or starting a business, an application like this aims to address a common need for individuals. With the understanding of loan terms, interest rates and repayment timelines being complex, this application simplifies the loan process, providing an intuitive and easy-to-use tool that allows users to quickly and accurately calculate their monthly loan repayment based on variable user inputs. Its development revolves around the objective of enhancing financial accessibility, enabling individuals to plan budgets more effectively, empowering informed decision making and avoiding potential debt issues, making it invaluable for those considering taking out a loan.
 
 ## Documentation
 
@@ -38,7 +38,7 @@ The development of the Loan Calculator application is designed to help those loo
 ```sh
 git clone https://github.com/williampowell03/will-p-july24.git
 ```
-Once successfully cloned to a local directory, you have everything needed to run the application. Navigate to index.html, and open in a web browser.
+Once successfully cloned to a local directory, you have everything needed to run the application. Navigate to index.html, and open it in a web browser.
 
 ### Running online:
 
@@ -46,12 +46,12 @@ Once successfully cloned to a local directory, you have everything needed to run
 
 https://williampowell03.github.io/will-p-july24/
 
-Click the hyperlink to navigate to the GitHub hosted application to use online.
+Click the hyperlink to navigate to the GitHub-hosted application to use online.
 
 
 ### Running all tests during development:
 
-#### 1. Prior to running code, ensure npm is installed using the below command in terminal
+#### 1. Before running the code, ensure npm is installed using the below command in the terminal
 
 ```sh
 npm install
@@ -70,7 +70,7 @@ This command will run through all test cases in the ___tests___ directory within
 
 ### User Interface Design
 
-I first created my user interface design prototype using Figma, giving me an initial idea for the look of my product. Figma helped when designing the high-level application due to its simple and intuitive interface, enabling anyone to successfully create and design a product to suit their requirements. The choice was made to create initial designs to ease decision making later on in the project and to remove any complexity when implementing the design in CSS. By designing a prototype, it enables me to make subtle changes in the future without changing the entire design if not needed.
+I first created my user interface design prototype using Figma, giving me an initial idea for the look of my product. Figma helped when designing the high-level application due to its simple and intuitive interface, enabling anyone to successfully create and design a product to suit their requirements. The choice was made to create initial designs to ease decision-making later on in the project and to remove any complexity when implementing the design in CSS. By designing a prototype, it enables me to make subtle changes in the future without changing the entire design if not needed.
 
 [Initial Figma Prototyped Design](https://www.figma.com/design/UPRCPuQzYHB5RXxAl7GTu5/SE-Project-Design?node-id=0-1&t=rHv5oc6k0GHqBgiJ-1)
 
@@ -110,11 +110,11 @@ Step-by-step guide on how the MVP was developed:
 5.	This function contains five variables: loanAmount, interestRate, monthlyTerm, interest, monthlyPayment
 6.	The loanAmount variable takes the loan amount in GBP £ from the user input box in index.html
 7.	The interestRate variable takes the interest rate percentage % from the user input box in index.html.
-8.	The monthlyTerm variables takes the payment term in months from the user input box in index.html.
+8.	The monthlyTerm variables take the payment term in months from the user input box in index.html.
 9.	The interest variable takes in the loanAmount, interestRate and monthlyTerm variables and creates a formula to calculate the accrued interest over the term.
 10.	The monthlyPayment variable takes in the loanAmount, monthlyTerm and interest variables and calculates the monthly payment for the user over the given time frame.
 11.	This monthlyPayment variable is then outputted using the “payment” ID in index.html displaying ‘Monthly Payment: ${monthlyPayment}’
-12.	In style.css, through utilising the classes defined in the html tags, styling like background colour, padding, borders, font styling and text alignment were able to be defined per tag depending on the class. This ensures the product is more accessible and user friendly.
+12.	In style.css, through utilising the classes defined in the HTML tags, styling like background colour, padding, borders, font styling and text alignment were able to be defined per tag depending on the class. This ensures the product is more accessible and user-friendly.
 
 
 ### Continuous Integration and Continuous Deployment (CI/CD)
@@ -129,7 +129,7 @@ The Loan Calculator App is deployed online using GitHub Pages, leveraging a CI/C
 2.	Code Quality Analysis: The CI/CD pipeline includes Codefactor, a tool that assesses the quality of the codebase. It provides insights into code health, adherence to best practices, and potential areas for improvement, providing a score which can be seen at the beginning of the repo README.md.
 3.	Deployment: Once all tests pass and code quality meets predefined thresholds, the application is automatically deployed to GitHub Pages. This ensures that the latest version of the Loan Calculator App is always accessible to users.
 
-CI/CD pipelines are crucial for maintaining the integrity of the application throughout its development lifecycle. They streamline the process of testing, integration, and deployment, enabling rapid iteration and quick responses to changes.
+CI/CD pipelines are crucial for maintaining the integrity of the application throughout its development lifecycle. They streamline the  testing, integration, and deployment process, enabling rapid iteration and quick responses to changes.
 
 
 ## Testing
@@ -154,40 +154,47 @@ When testing the performance and accessibility of the product, I used lighthouse
 
 #### Results
 
-As shown on the report, the websites performance rating of 100 proves that this application is highly optimised to run seamlessly with a 0.07 second server response time, providing a heightened user experience. A lower performance score may indicate longer load times, worsening the overall user experience so it is important that this score is high.
+As shown in the report, the website's performance rating of 100 proves that this application is highly optimised to run seamlessly with a 0.07-second server response time, providing a heightened user experience. A lower performance score may indicate longer load times, worsening the overall user experience so it is important that this score is high.
 
-The application performs at a score of 85 for accessibility. This indicates that it is relatively easy to comprehend and use for the user. The design, utilising the accessibility colour pallete, ensures that the application is aesthetically pleasing with contrasting colours and intuitive headings and input boxes.
+The application performs at a score of 85 for accessibility. This indicates that it is relatively easy to comprehend and use for the user. The design, utilising the accessibility colour palette, ensures that the application is aesthetically pleasing with contrasting colours and intuitive headings and input boxes.
 
-With a score of 96 for best practices, proves that the application has improved efficiency, enhanced quality whilst remaining simple and intuitive.
+A score of 96 for best practices proves that the application has improved efficiency, and enhanced quality whilst remaining simple and intuitive.
 
-The SEO score of 91 implies that the application design draws in a larger audience with a higher rate of high quality direct internet traffic.
+The SEO score of 91 implies that the application design draws in a larger audience with a higher rate of high-quality direct internet traffic.
 
 ### Codefactor Testing
 
-Codefactor performs code reviews with every commit or pull request. Codefactor continuously monitors the codebase for potential issues, providing automated feedback on code quality, enforcing coding standards to ensure that the quality guidelines are adhered to.
+Codefactor performs code reviews with every commit or pull request. Codefactor continuously monitors the codebase for potential issues, providing automated feedback on code quality, and enforcing coding standards to ensure that the quality guidelines are adhered to.
 
 ![Codefactor Testing](docs/images/image-5.png)
 
 ## Project Management
 
-When managing this Loan Calculator Project, I used the GitHub Projects tool. GitHub project is an adaptable spreadsheet, task-board, and road map that integrates with your issues and pull requests on GitHub, encouraging better and more effective management of the work.
+When managing this Loan Calculator Project, I used the GitHub Projects tool. GitHub project is an adaptable spreadsheet, task board, and road map that integrates with your issues and pull requests on GitHub, encouraging better and more effective management of the work.
 
 ![GitHub Project Board](docs/images/image-2.png)
 
 [GitHub Project Docs](https://docs.github.com/en/issues/planning-and-tracking-with-projects/learning-about-projects/about-projects)
 
-To manage this project, I used the Kanban styled board to manage the issue tickets and visualise the project workflow in its varying stages. Issues or tasks can be moved across the workflow depending on their status state. This aligns with the agile approach that I have been taking throughout the different stages of iterative development, ensuring full transparency and incremental software development whilst prioritising tasks efficiently. This encourages continuous improvement, organising tasks into manageable increments, ensuring steady progress and flexibility in responding to changes.
+To manage this project, I used the Kanban-styled board to manage the issue tickets and visualise the project workflow in its varying stages. Issues or tasks can be moved across the workflow depending on their status state. This aligns with the agile approach that I have been taking throughout the different stages of iterative development, ensuring full transparency and incremental software development whilst prioritising tasks efficiently. This encourages continuous improvement, organising tasks into manageable increments, ensuring steady progress and flexibility in responding to changes.
 
 Following the Agile methodology, the Scrum framework was incorporated when developing this application, working in shorter, time-based blocks where a certain amount of work is set to be completed. Due to the shorter scale of the project, Scrum collaborative calls were not necessary but in a larger scale project, this methodology would allow teams to collaborate on tasks and issues more effectively, producing higher quality code with easier manageability, giving the developers more flexibility to adjust project priorities.
 
 
 ### Issue Ticket System
 
-Each ticket in the list of issues corresponds with a task, whether that be a feature, bug, testing or documentation. Every issue is assigned a label and a description to outline what the task is for. An issue will link to a branch and a Pull Request for better management and tracking of the project. Also for audit purposes, the branches can be traced by a ticket. On a larger scale project, a reviewer would be assigned to each PR to ensure that before the branch is merged, it is tested and reviewed to mitigate any risks and identify any potential errors in logic or syntax. For this smaller scale project, I ran the CI/CD pipelines to test, and I reviewed the commit messages individually before merging the branch to reduce any risks of bugs or incidents.
+Each ticket in the list of issues corresponds with a task, whether that be a feature, bug, testing or documentation. Every issue is assigned a label and a description to outline what the task is for. An issue will link to a branch and a Pull Request for better management and tracking of the project. Also for audit purposes, the branches can be traced by a ticket. On a larger scale project, a reviewer would be assigned to each PR to ensure that before the branch is merged, it is tested and reviewed to mitigate any risks and identify any potential errors in logic or syntax. For this smaller-scale project, I ran the CI/CD pipelines to test, and I reviewed the commit messages individually before merging the branch to reduce any risks of bugs or incidents.
 
 ![GitHub Issue List](docs/images/image-3.png)
 
 
 ## Evaluation
 
-Write evaluation here
+In conclusion, I am overall very pleased with the outcome of the Loan Calculator Application. The design and development of this application successfully met the initial project goal. It accurately calculates monthly loan payments based on user inputs. The UI is intuitive and user-friendly, featuring clear input fields and a noticeable display of the calculated monthly payment. The application doesn't prove to be over-complicated for users and is designed with the UIs accessibility in mind.
+
+However, whilst the application does prove to meet the requirements through the several forms of testing that have been undertaken, there are a few enhancements that could be made in the future:
+* Further Accessibility Improvements: Ensuring the application meets accessibility standards for users with disabilities.
+* Internationalisation: Supporting multiple currencies and languages to cater to a broader audience.
+* Additional Features: Incorporating options for different types of loans.
+
+Overall, the Loan Calculator Application delivers a valuable tool for users to estimate their financial loans with ease and accuracy, whilst effectively utilising modern software development practices and tools.
